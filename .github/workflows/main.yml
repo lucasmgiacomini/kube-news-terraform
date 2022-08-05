@@ -24,7 +24,7 @@ jobs:
           push: true
           tags: |
             giacominilucas/kube-news:latest
-            giacominilucas/kube-news:${{github.run_number}}
+            giacominilucas/kube-news:v${{github.run_number}}
         
         
         
